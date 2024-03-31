@@ -1,0 +1,182 @@
+.form{
+	width: 99vw;
+	min-height: 250px;
+	margin:10px auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: antiquewhite;
+}
+.heading{
+	text-align: center;
+	margin: 30px 10px;
+	padding: 10px;
+	background-color: #f19f53;
+	background-image: linear-gradient(to right,rgb(249, 197, 7),rgb(240, 211, 138));
+	color: white;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-weight: bold;
+	border-radius: 10px;
+}
+.heading h1{
+	display: inline-block;
+	margin: auto 20px;
+	vertical-align: middle;
+}
+
+.heading i{
+	vertical-align: middle;
+	font-size: xx-large;
+}
+
+.input{
+	margin: 30px auto;
+	padding: 40px;
+	border-radius: 30px;
+	background-color: rgba(236, 178, 85, 0.814);
+	border: 2px solid black;
+}
+input[type="file"]::file-selector-button {
+	border-radius: 4px;
+	padding: 0 16px;
+	height: 40px;
+	cursor: pointer;
+	background-color: white;
+	border: 1px solid rgba(0, 0, 0, 0.16);
+	box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.05);
+	margin-right: 16px;
+	transition: background-color 200ms;
+}
+
+input[type="file"]::file-selector-button:hover {
+	background-color: #e4e9f4;
+}
+
+.btn-container{
+	text-align: center;
+}
+
+.btn{
+	display: inline-block;
+outline: none;
+cursor: pointer;
+font-weight: 600;
+border-radius: 3px;
+padding: 12px 24px;
+border: 0;
+color: #3a4149;
+background: #e7ebee;
+line-height: 1.15;
+font-size: 16px;
+
+}
+
+.btn:hover {
+	transition: all .1s ease;
+	box-shadow: 0 0 0 0 #fff, 0 0 0 3px #1de9b6;
+}
+
+.file-row{
+	background-color: #f3ab5e;
+	margin: 10px auto 10px -40px;
+	padding-top: 10px;
+	display: flex;
+	justify-content: space-around;
+	/* align-items: center; */
+	border-radius: 10px;
+}
+.file-row p span{
+	color: #493309;
+	font-size: large;
+	font-weight: bold;
+}
+
+.file-row p a{
+	text-decoration: none;
+}
+
+.file-row .name{
+	width: 200px;
+	font-size: larger;
+	font-weight: bold;
+}
+
+.file-row p a i{
+	color: #493309;
+}
+
+.file-row .fa-trash{
+	color: red;
+}
+
+.alert {
+	position: relative;
+	top: 10;
+	left: 0;
+	width: auto;
+	height: auto;
+	padding: 10px;
+	margin: 10px;
+	line-height: 1.8;
+	border-radius: 5px;
+	cursor: hand;
+	cursor: pointer;
+	font-family: sans-serif;
+	font-weight: 400;
+  }
+  
+  .alertCheckbox {
+	display: none;
+  }
+  
+  :checked + .alert {
+	display: none;
+  }
+  
+  .alertText {
+	display: table;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 16px;
+  }
+  
+  .alertClose {
+	float: right;
+	padding-top: 5px;
+	font-size: 10px;
+  }
+  
+  .clear {
+	clear: both;
+  }
+  
+  .info {
+	background-color: #EEE;
+	border: 1px solid #DDD;
+	color: #999;
+  }
+  
+  .success {
+	background-color: #EFE;
+	border: 1px solid #DED;
+	color: #9A9;
+  }
+  
+  .notice {
+	background-color: #EFF;
+	border: 1px solid #DEE;
+	color: #9AA;
+  }
+  
+  .warning {
+	background-color: #FDF7DF;
+	border: 1px solid #FEEC6F;
+	color: #C9971C;
+  }
+  
+  .error {
+	background-color: #FEE;
+	border: 1px solid #EDD;
+	color: #A66;
+  }
+

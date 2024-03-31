@@ -1,0 +1,23 @@
+{
+  "name": "csv_upload",
+  "version": "1.0.0",
+  "description": "it is an application in that we can upload csv file and can access that",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "JoyCode4",
+  "license": "ISC",
+  "dependencies": {
+    "connect-flash": "^0.1.1",
+    "csv-parser": "^3.0.0",
+    "dotenv": "^16.4.2",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-session": "^1.18.0",
+    "mongoose": "^8.1.1",
+    "multer": "^1.4.5-lts.1"
+  }
+}
